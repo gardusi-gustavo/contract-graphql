@@ -11,7 +11,7 @@
     "expected_outcome": "A client can query datasets and pages.",
     "acceptance_criteria": [
       "Pagination is covered",
-      "Field names match package-json"
+      "Field names match contract-json"
     ]
   },
   "attempts": []

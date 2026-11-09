@@ -1,4 +1,4 @@
-# package-graphql
+# contract-graphql
 
 Pure GraphQL SDL contract registry.
 
