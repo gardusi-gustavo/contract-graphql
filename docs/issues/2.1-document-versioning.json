@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document versioning",
+  "context": "GraphQL versioning is implicit.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Write the policy.",
+    "expected_outcome": "A contributor knows when to cut a version.",
+    "acceptance_criteria": [
+      "Deprecation path exists",
+      "Breaking changes are listed"
+    ]
+  },
+  "attempts": []
+}

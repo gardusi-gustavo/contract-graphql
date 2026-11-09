@@ -1,0 +1,23 @@
+type Dataset {
+  id: ID!
+  domain: String!
+  date: String!
+  path: String!
+  sha256: String!
+  itemCount: Int!
+}
+
+type DatasetEdge {
+  node: Dataset!
+  cursor: String!
+}
+
+type DatasetConnection {
+  edges: [DatasetEdge!]!
+  pageInfo: PageInfo!
+}
+
+type Query {
+  dataset(domain: String!, date: String!): Dataset
+  datasets(domain: String, first: Int, after: String): DatasetConnection!
+}

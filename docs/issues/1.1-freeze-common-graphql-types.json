@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze common GraphQL types",
+  "context": "Pagination and error types are the base contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review common.graphql.",
+    "expected_outcome": "Queries share one page/error shape.",
+    "acceptance_criteria": [
+      "Types are documented",
+      "Nullability is explicit"
+    ]
+  },
+  "attempts": []
+}

@@ -1,0 +1,11 @@
+scalar DateTime
+
+type PageInfo {
+  hasNextPage: Boolean!
+  endCursor: String
+}
+
+type Error {
+  code: String!
+  message: String!
+}

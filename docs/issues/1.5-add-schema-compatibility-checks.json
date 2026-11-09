@@ -1,0 +1,18 @@
+{
+  "rank": "1.5",
+  "title": "Add schema compatibility checks",
+  "context": "Breaking changes are not detected.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a compatibility check.",
+    "expected_outcome": "Removing a field fails CI.",
+    "acceptance_criteria": [
+      "Nullability changes fail",
+      "Additive changes pass"
+    ]
+  },
+  "attempts": []
+}

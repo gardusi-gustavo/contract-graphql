@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Map JSON fields",
+  "context": "GraphQL and JSON names can drift.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document the mapping and test it.",
+    "expected_outcome": "A field-name mismatch fails CI.",
+    "acceptance_criteria": [
+      "Mapping table exists",
+      "Test covers every type"
+    ]
+  },
+  "attempts": []
+}

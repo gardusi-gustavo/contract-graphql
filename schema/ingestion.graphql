@@ -1,0 +1,11 @@
+input PublishDatasetInput {
+  domain: String!
+  date: String!
+  path: String!
+  sha256: String!
+  itemCount: Int!
+}
+
+type Mutation {
+  publishDataset(input: PublishDatasetInput!): Dataset!
+}

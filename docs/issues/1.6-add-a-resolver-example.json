@@ -1,0 +1,18 @@
+{
+  "rank": "1.6",
+  "title": "Add a resolver example",
+  "context": "There is no example of binding SDL to a core library.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add one example outside src/.",
+    "expected_outcome": "A resolver maps to a pure core function.",
+    "acceptance_criteria": [
+      "Example is excluded from publish",
+      "Example is documented"
+    ]
+  },
+  "attempts": []
+}

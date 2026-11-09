@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Freeze dataset queries",
+  "context": "Dataset queries are the first read contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review dataset.graphql.",
+    "expected_outcome": "A client can query datasets and pages.",
+    "acceptance_criteria": [
+      "Pagination is covered",
+      "Field names match package-json"
+    ]
+  },
+  "attempts": []
+}

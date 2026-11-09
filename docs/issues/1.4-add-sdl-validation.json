@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add SDL validation",
+  "context": "SDL is only checked for braces.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Use a GraphQL parser or schema validator.",
+    "expected_outcome": "Invalid SDL fails CI.",
+    "acceptance_criteria": [
+      "Parser runs",
+      "Schema builds"
+    ]
+  },
+  "attempts": []
+}
